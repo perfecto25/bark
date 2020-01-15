@@ -36,6 +36,6 @@ if command == "":
     var bark_json = %* {}
     bark_json["details"] = %* {"age":35, "pi":3.1415}
     echo bark_json
-    echo filter_os_info()
+#    echo filter_os_info(bark_json)
 #echo opts.argparseCommand
 #echo opts.parentOpts
